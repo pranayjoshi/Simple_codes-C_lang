@@ -1,0 +1,67 @@
+#include <stdio.h>
+/*a quiz programe*/
+int main()
+{
+    int a1;
+    int a2;
+    int t = 0;
+    int s1 = 0;
+    int s2 = 0;
+    printf("this is a simple quiz game\n");
+
+    printf("1. who is the prime minister of india\n");
+    printf(" 1.= narendra modi\n 2. bezian netanyahu\n 3. donald trump\n");
+    printf(" type your option->>>>  ");
+    scanf("%d", &a1);
+
+    if (a1 == 1)
+    {
+        s1 = s1+1;
+        printf("correct answer\n");
+    }
+    else {
+        s1 = s1+0;
+        printf("wrong answer\n");
+    }
+system ("pause");
+system ("cls");
+    /* 2 question*/
+    printf("what is the capital of japan\n");
+    printf("1. delhi\n 2. tokyo\n 3. colombo\n");
+    printf(" type your option ->>>>");
+    scanf("%d", &a2);
+
+    if  (a2 == 2)
+    {
+        s2 = s2+1;
+        printf("correct answer\n");
+    }
+    else {
+        s2 = s2+0;
+        printf("wrong answer\n");
+    }
+
+    t = s1+s2;
+
+    printf("your total score is %d out of 2\n", t);
+    if (t == 2)
+    {
+        printf("very good!\n");
+    }
+    else if (t == 1)
+    {
+        printf("closely completed\n");
+    }
+    else {
+        printf("try again\n");
+    }
+    getch();
+    return 0;
+
+
+
+
+
+
+
+}
