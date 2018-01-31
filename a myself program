@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+/*this is a myself program*/
+{
+    int i;
+    int i2;
+    int m;
+    int m2;
+    int f;
+    int f2;
+
+    printf("hello! my name is pranay joshi\n");
+    printf("what is your name\n", i);
+    scanf("%d\n", &i2);
+    system("pause");
+    system("cls");
+
+    printf("what is your mothers name \n", m);
+    scanf("%d\n", &m2);
+    system("pause");
+    system("cls");
+
+    printf("what is your fathers name\n", f);
+    scanf("%d\n", &f2);
+    system("pause");
+    system("cls");
+
+    return 0;
+
+}
